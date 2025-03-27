@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { HeartHandshake, HelpingHand, Stethoscope } from "lucide-react";
 import { motion } from "framer-motion";
+import img from './13632.jpg';
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         className="relative bg-cover bg-center h-[80vh] flex flex-col justify-center items-center text-center px-4"
         style={{
           backgroundImage:
-            "url('https://drive.google.com/file/d/1JsZ70PShlMtqZUxcTWOjm_NT4ojUdjEW/view?usp=drive_link')",
+            `url(${img})`,
         }}
       >
         <div className="bg-black bg-opacity-70 p-6 rounded-lg w-full max-w-lg">
