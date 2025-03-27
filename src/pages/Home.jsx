@@ -3,7 +3,7 @@ import { HeartHandshake, HelpingHand, Stethoscope } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import img from "./13632.jpg";
-import qrCode from "./13632.jpg"; // Add your QR code image here
+import qrCode from "../assets/un.jpg"; // Add your QR code image here
 
 const Home = () => {
   const [showQR, setShowQR] = useState(false);
