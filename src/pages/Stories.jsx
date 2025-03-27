@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
 
 const donors = [
-  "Anjali Sharma",
-  "Rohan Mehta",
-  "Priya Verma",
-  "Amit Singh",
-  "Neha Kapoor",
-  "Suresh Gupta",
-  "Rahul Khanna",
-  "Meena Joshi",
-  "Arvind Patel",
-  "Sunita Desai",
+  "Sonam Kumari",
+  "Ankit Kumar",
+  "Karan Kumar",
+  "Ketan Sharma",
+  "Mohit Kumar",
+  "Manikant Pandey",
+  "Subham Pandey",
+  "Shadman Azim",
+  "Pritam Singh",
+  "Kamlesh Kumar",
   // Add more donor names here manually
 ];
 
