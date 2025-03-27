@@ -13,7 +13,7 @@ const Home = () => {
         className="relative bg-cover bg-center h-[80vh] flex flex-col justify-center items-center text-center px-4"
         style={{
           backgroundImage:
-            "url('https://img.freepik.com/free-photo/beautiful-brunette-woman-embracing-child-with-smile-young-mom-red-attire-sitting-couch-with-little-daughter_197531-13632.jpg?t=st=1743020517~exp=1743024117~hmac=09510862c79b026f284acaf71803bee63bf58a6b8684688bb3bec19b6259ea14&w=1380')",
+            "url('../assets/13632.jpg')",
         }}
       >
         <div className="bg-black bg-opacity-70 p-6 rounded-lg w-full max-w-lg">
