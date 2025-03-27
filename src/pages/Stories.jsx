@@ -19,7 +19,7 @@ const Stories = () => {
     <div className="bg-gray-900 min-h-screen text-white px-6 py-12">
       {/* Introduction Section */}
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-pink-500">Our Impact Stories</h1>
+        <h1 className="text-4xl mt-10 font-bold text-pink-500">Our Impact Stories</h1>
         <p className="mt-4 text-gray-300">
           Thanks to our generous donors, we've helped many women in medical emergencies. 
           Here are some inspiring stories and a list of those who made it possible.
