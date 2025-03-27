@@ -51,7 +51,7 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-bold text-white">Contact Us</h2>
           <p className="mt-2 flex items-center text-gray-400">
-            <PhoneCall className="mr-2 text-pink-500" /> +91 81027 61121
+            <PhoneCall className="mr-2 text-pink-500" /> N/A
           </p>
           <p className="flex items-center text-gray-400">
             <Mail className="mr-2 text-pink-500" /> foundationmaa@myyahoo.com</p>
