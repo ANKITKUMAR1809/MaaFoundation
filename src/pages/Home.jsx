@@ -13,7 +13,7 @@ const Home = () => {
         className="relative bg-cover bg-center h-[80vh] flex flex-col justify-center items-center text-center px-4"
         style={{
           backgroundImage:
-            "url('../assets/13632.jpg')",
+            "url('13632.jpg')",
         }}
       >
         <div className="bg-black bg-opacity-70 p-6 rounded-lg w-full max-w-lg">
