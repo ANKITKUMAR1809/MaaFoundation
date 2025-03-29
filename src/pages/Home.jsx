@@ -194,7 +194,7 @@ const Home = () => {
 
       {/* 🔥 QR Code Popup */}
       {showQR && (
-        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center Z-30">
           <div className="bg-white p-6 rounded-lg text-center relative">
             <button
               className="absolute top-2 right-2 bg-red-600 text-white px-3 py-1 rounded-full"
