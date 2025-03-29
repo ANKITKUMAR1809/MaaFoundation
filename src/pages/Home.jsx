@@ -263,14 +263,14 @@ const Home = () => {
         <h2 className="text-2xl font-bold text-center text-white mb-4">
           Recent Donations 💖
         </h2>
-        <div className="overflow-hidden ">
+        <div className="overflow-hidden">
           <motion.div
             className="flex flex-col gap-2"
             animate={{ y: ["0%", "-100%"] }}
             transition={{
               repeat: Infinity,
-              duration: donations.length * 2 || 5,
-              ease: "linear",
+              duration: 15, // Slower scrolling
+              ease: "easeIn", // Smooth transition
             }}
           >
             {[...donations, ...donations].map((donor, index) => (
