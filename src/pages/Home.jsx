@@ -152,6 +152,47 @@ const Home = () => {
           Donate Now ❤️
         </motion.button>
       </div>
+      {/* 🛠️ Step to Donate Section */}
+      <div className="bg-gray-900 text-white py-12 px-6 md:px-20">
+        <h2 className="text-3xl font-bold text-center mb-8">
+          📌 Steps to Donate
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6 text-center">
+          {/* Step 1 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-gray-800 p-6 rounded-lg shadow-lg"
+          >
+            <h3 className="text-xl font-semibold">Step 1: Click Donate Now</h3>
+            <p className="text-gray-300 mt-2">
+              Tap the "Donate Now" button to begin the process.
+            </p>
+          </motion.div>
+
+          {/* Step 2 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-gray-800 p-6 rounded-lg shadow-lg"
+          >
+            <h3 className="text-xl font-semibold">Step 2: Enter Details</h3>
+            <p className="text-gray-300 mt-2">
+              Fill in your name and the amount you wish to donate.
+            </p>
+          </motion.div>
+
+          {/* Step 3 */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-gray-800 p-6 rounded-lg shadow-lg"
+          >
+            <h3 className="text-xl font-semibold">Step 3: Scan & Pay</h3>
+            <p className="text-gray-300 mt-2">
+              After submission, scan the QR code to complete the payment.
+            </p>
+          </motion.div>
+        </div>
+      </div>
 
       {/* 🔥 Donation Form */}
       {showForm && (
