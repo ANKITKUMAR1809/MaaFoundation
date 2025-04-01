@@ -251,6 +251,7 @@ const Home = () => {
               alt="Amazon Pay QR Code"
               className="w-48 mx-auto mt-4"
             />
+            <a href={qrCode} download={true} className="px-4 py-2 text-white bg-red-500">Download Qr</a>
           </div>
         </div>
       )}
