@@ -206,6 +206,23 @@ const Home = () => {
             </button>
             <h3 className="text-xl font-bold">Enter Donation Details</h3>
             <form className="mt-4 flex flex-col gap-3" onSubmit={handleSubmit}>
+              <div className="flex flex-col items-center"> 
+                <h1 className="text-white">Download Qr Code & Pay and Write Your Name</h1> 
+                <img
+                  src={qrCode}
+                  alt="Amazon Pay QR Code"
+                  className="w-48 mx-auto mt-4"
+                />
+              </div>
+              <div>
+                <a
+                  href={qrCode}
+                  download={true}
+                  className="px-4 py-2 text-white bg-red-500"
+                >
+                  Download Qr
+                </a>
+              </div>
               <input
                 className="p-2 rounded bg-gray-700 text-white border-none"
                 type="text"
@@ -251,7 +268,13 @@ const Home = () => {
               alt="Amazon Pay QR Code"
               className="w-48 mx-auto mt-4"
             />
-            <a href={qrCode} download={true} className="px-4 py-2 text-white bg-red-500">Download Qr</a>
+            <a
+              href={qrCode}
+              download={true}
+              className="px-4 py-2 text-white bg-red-500"
+            >
+              Download Qr
+            </a>
           </div>
         </div>
       )}
