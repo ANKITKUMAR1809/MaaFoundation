@@ -208,11 +208,6 @@ const Home = () => {
             <form className="mt-4 flex flex-col gap-3" onSubmit={handleSubmit}>
               <div className="flex flex-col items-center"> 
                 <h1 className="text-white">Download Qr Code & Pay and Write Your Name</h1> 
-                <img
-                  src={qrCode}
-                  alt="Amazon Pay QR Code"
-                  className="w-48 mx-auto mt-4"
-                />
               </div>
               <div>
                 <a
