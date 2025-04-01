@@ -196,7 +196,7 @@ const Home = () => {
 
       {/* 🔥 Donation Form */}
       {showForm && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-30">
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-30 mt-10">
           <div className="bg-gray-900 p-6 rounded-lg text-center text-white relative w-96">
             <button
               className="absolute top-2 right-2 bg-red-600 text-white px-3 py-1 rounded-full"
